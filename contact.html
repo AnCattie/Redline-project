@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-      <meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -13,71 +13,50 @@
 </head>
 <body>
  <div class="container-fluid p-1">
-    
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/AnCattie">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="https://www.linkedin.com/in/ancattie/">Linkedin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-      
-                <div class="collapse navbar-collapse" id="navbarToggler">
-                  <a class="navbar-brand" href="index.html">Home</a>
-                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">blabla1</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">blabla2</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">blabla3</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-      
-              </nav>
-              <section id="contact">
-                  <div class="section-content">
-                    <h1 class="section-header text-center">Give me<span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> feedback</span></h1>
-                    <h3 class="text-center pb-4">Contact me!</h3>
-                  </div>
-                  <div class="contact-section">
-                  <div class="container">
-                    <form>
-                      <div class="col-md-6 form-line">
-                          <div class="form-group">
-                            <label for="exampleInputUsername">Your name</label>
-                            <input type="text" class="form-control" id="" placeholder=" Enter Name">
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleInputEmail">Email Address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email">
-                          </div>	
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            <label for ="description"> feedback</label>
-                             <textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
-                          </div>
-                          <div>
-            
-                            <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
-                          </div>
-                          
-                      </div>
-                    </form>
-                  </div>
-                </section>
+    <section id="contact col-sm-12">
+      <div class="section-content">
+        <h1 class="section-header text-center">Give me<span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> feedback</span></h1>
+        <h3 class="text-center pb-4">Contact me!</h3>
+      </div>
+    </section>
 
-  <img src="feedback.png" alt="feedbackimg" class="mx-auto d-block">
-
+      <div class="container-fluid">
+        <div class="row col-sm-12">
+          <div class="col-sm-6">
+            <label for="exampleInputUsername">Your name</label>
+            <input type="text" class="form-control" id="" placeholder=" Enter Name">
+            <label for="exampleInputEmail">Email Address</label>
+            <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email">
+            <label for ="description"> feedback</label>
+            <textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+            <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+          </div>      
+          <div class="col-sm-6">
+              <img src="feedback.png" alt="feedbackimg" class="img-responsive pull-right">
+          </div>
+        </div>
+      </div>
  </div>
- <footer></footer>
- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </body>
 </html>

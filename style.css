@@ -1,4 +1,4 @@
-.intro-row {
+.intro {
     margin-top: 20px;
     margin-left: 0px;
 }
@@ -9,4 +9,13 @@ body {
 
 img {
     background-color: #ffffff;
+}
+
+a {
+    color: inherit; 
+}
+
+nav {
+    background-color:#faacd1
+    
 }
