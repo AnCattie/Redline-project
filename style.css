@@ -15,7 +15,11 @@ a {
     color: inherit; 
 }
 
-nav {
+nav, footer {
     background-color:#faacd1
     
+}
+
+footer > img {
+    opacity: 0.1;
 }
